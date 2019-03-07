@@ -6,6 +6,9 @@ import lombok.Data;
 public class Gridline {
     public Gridline previous;
     public Gridline next;
-    public String[] contents  = {"X000", "X000", "X000", "X000", "X000", "X000", "X000", "X000", "X000", "X000"};
+    public String[] contents;
+    public Gridline(){
+        contents = new String[]{"X000", "X000", "X000", "X000", "X000", "X000", "X000", "X000", "X000", "X000"};
+    }
 }
 

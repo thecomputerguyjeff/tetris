@@ -7,12 +7,29 @@ public class TetrisControllerTest {
     public void printEmptyGame(){
         tetrisController.printGame();
     }
-//@Test
-//    public void print2ShapesInGrid() throws Exception{
-//        tetrisController.addShape();
-//        tetrisController.addShape();
-//        assertEquals(Arrays.asList("l001", "l001", "l001", "l001", "l002", "l002", "l002", "l002", "X000", "X000"), tetrisController.printGame());
-//    }
+    @Test
+    public void printShapeInGrid() throws Exception{
+        tetrisController.addShape();
+        tetrisController.printGame();
+    }
+    @Test
+    public void clearingGridbeforeNewGame(){
+        tetrisController.clearGrid();
+        tetrisController.printGame();
+    }
+    @Test
+    public void printManyOfSameShapeInGrid() throws Exception{
+        tetrisController.addShape();
+        tetrisController.addShape();
+        tetrisController.addShape();
+        tetrisController.addShape();
+        tetrisController.addShape();
+        tetrisController.addShape();
+        tetrisController.addShape();
+        tetrisController.addShape();
+        tetrisController.addShape();
+        tetrisController.printGame();
+    }
 
 }
 

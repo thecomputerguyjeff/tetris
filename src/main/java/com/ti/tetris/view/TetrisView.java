@@ -8,7 +8,7 @@ public class TetrisView {
         Grid grid = Grid.getGrid();
         Gridline line = grid.getTopLine();
         Integer lineNo = 43;
-        while (line.getPrevious() != null){
+        while (line != null){
             System.out.print(lineNo+":");
             for (int i = 0; i < 10; i++) {
                 System.out.print(" "+line.getContents()[i]);

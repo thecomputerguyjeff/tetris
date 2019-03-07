@@ -4,6 +4,6 @@ import java.util.List;
 
 public interface ShapeInterface {
     String getIdentifier();
-    void rotate();
-    List<Integer> getPositions();
+    Integer getNumberOfOrientations();
+    List<List> getPositions(Integer orientation);
 }
