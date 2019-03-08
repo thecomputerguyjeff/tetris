@@ -1,5 +1,8 @@
 import com.ti.tetris.controller.TetrisController;
+import com.ti.tetris.model.Grid;
 import org.junit.Test;
+
+import java.util.Arrays;
 
 public class TetrisControllerTest {
     TetrisController tetrisController = new TetrisController();
@@ -28,6 +31,14 @@ public class TetrisControllerTest {
         tetrisController.addShape();
         tetrisController.addShape();
         tetrisController.addShape();
+        tetrisController.printGame();
+        Grid grid = Grid.getGrid();
+        System.out.println(Arrays.toString(grid.getTopLine().getContents()));
+    }
+
+    @Test
+    public void endGameWhenHitOverflow(){
+        tetrisController.playGame();
         tetrisController.printGame();
     }
 

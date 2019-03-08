@@ -6,7 +6,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class ShapeFactory {
     public ShapeInterface getShape(){
-        Integer rand = ThreadLocalRandom.current().nextInt(5);
+        Integer rand = ThreadLocalRandom.current().nextInt(7);
         switch (rand){
             case 0:
                 return new I();

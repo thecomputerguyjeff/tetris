@@ -1,15 +1,15 @@
 package com.ti.tetris.controller;
 
 import com.ti.tetris.model.Grid;
-import com.ti.tetris.service.GridService;
+import com.ti.tetris.service.GameService;
 import com.ti.tetris.view.TetrisView;
 
 public class TetrisController {
-    GridService gridService = new GridService();
+    GameService gameService = new GameService();
     TetrisView tetrisView = new TetrisView();
 
     public void addShape() {
-        gridService.addShape();
+        gameService.addShape();
     }
     public void clearGrid(){
         Grid.getGrid().clearGrid();
@@ -17,6 +17,11 @@ public class TetrisController {
     public void printGame() {
         tetrisView.printGame();
 
+    }
+
+    public void playGame(){
+        Grid.getGrid().clearGrid();
+        gameService.playGame();
     }
 
 }

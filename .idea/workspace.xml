@@ -2,23 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="847df9c7-d1ba-4e23-8872-436fdbe6f326" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ti/tetris/model/shapes/J.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ti/tetris/model/shapes/L.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ti/tetris/model/shapes/O.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ti/tetris/model/shapes/S.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ti/tetris/model/shapes/T.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ti/tetris/model/shapes/Z.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/ti/tetris/controller/TetrisController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/ti/tetris/controller/TetrisController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/com/ti/tetris/model/ShapeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/ti/tetris/model/ShapeFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/ti/tetris/model/ShapeInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/ti/tetris/model/StraightLine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/ti/tetris/service/GridService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/ti/tetris/service/GridService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/ti/tetris/service/GridService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/com/ti/tetris/service/ShapePlacer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/ti/tetris/service/ShapePlacer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/TetrisControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/TetrisControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ti/tetris/controller/TetrisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ti/tetris/controller/TetrisController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ti/tetris/model/ShapeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ti/tetris/model/ShapeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ti/tetris/model/ShapeInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ti/tetris/model/shapes/ShapeInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ti/tetris/model/StraightLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ti/tetris/model/shapes/I.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ti/tetris/service/GridService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ti/tetris/service/GridService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ti/tetris/service/GridService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ti/tetris/service/GameService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ti/tetris/service/ShapePlacer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ti/tetris/service/ShapePlacer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TetrisControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TetrisControllerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -55,86 +49,14 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5576241">
+    <splitter split-orientation="horizontal" split-proportion="0.5212766">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/ti/tetris/model/shapes/I.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/ti/tetris/service/GameService.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="254">
-                  <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/ti/tetris/model/ShapePlace.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" selection-start-line="6" selection-end-line="6" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/ti/tetris/model/ShapeFactory.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="274">
-                  <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/ti/tetris/model/shapes/T.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="578">
-                  <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/ti/tetris/model/shapes/Z.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="273">
-                  <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/ti/tetris/model/shapes/S.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="325">
-                  <caret line="29" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="29" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/ti/tetris/model/shapes/O.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/ti/tetris/model/shapes/J.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="274">
-                  <caret line="38" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="38" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/ti/tetris/model/shapes/ShapeInterface.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+                <state relative-caret-position="224">
+                  <caret line="32" selection-start-line="32" selection-end-line="32" />
                 </state>
               </provider>
             </entry>
@@ -142,8 +64,73 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/ti/tetris/service/ShapePlacer.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="353">
-                  <caret line="71" column="54" selection-start-line="71" selection-start-column="54" selection-end-line="71" selection-end-column="54" />
+                <state relative-caret-position="359">
+                  <caret line="76" column="34" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/ti/tetris/model/Grid.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="323">
+                  <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+                  <folding>
+                    <element signature="e#319#320#0" expanded="true" />
+                    <element signature="e#346#347#0" expanded="true" />
+                    <element signature="e#380#381#0" expanded="true" />
+                    <element signature="e#407#408#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/ti/tetris/model/ShapeFactory.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="17">
+                  <caret line="8" selection-start-line="8" selection-end-line="26" selection-end-column="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/ti/tetris/model/Gridline.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="136">
+                  <caret line="8" selection-start-line="8" selection-end-line="8" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/ti/tetris/controller/TetrisController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="204">
+                  <caret line="12" selection-start-line="12" selection-end-line="12" />
+                  <folding>
+                    <element signature="e#304#305#0" expanded="true" />
+                    <element signature="e#371#372#0" expanded="true" />
+                    <element signature="e#413#414#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/ti/tetris/model/shapes/S.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="112">
+                  <caret line="26" selection-start-line="26" selection-end-line="26" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/ti/tetris/model/shapes/T.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="435">
+                  <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
@@ -155,8 +142,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/TetrisControllerTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="172">
-                  <caret line="30" selection-start-line="30" selection-end-line="32" />
+                <state relative-caret-position="138">
+                  <caret line="28" selection-start-line="28" selection-end-line="28" />
                 </state>
               </provider>
             </entry>
@@ -194,22 +181,23 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ti/tetris/model/ShapeInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ti/tetris/model/ShapeToBePlaced.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ti/tetris/model/ShapePlace.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ti/tetris/service/GridService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ti/tetris/model/Grid.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ti/tetris/controller/TetrisController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ti/tetris/model/Gridline.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TetrisControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ti/tetris/model/StraightLine.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ti/tetris/model/shapes/StraightLine.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ti/tetris/model/shapes/I.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ti/tetris/model/shapes/J.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ti/tetris/service/ShapePlacer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ti/tetris/model/shapes/L.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ti/tetris/model/shapes/O.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ti/tetris/model/shapes/S.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ti/tetris/model/ShapeFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ti/tetris/model/shapes/Z.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ti/tetris/model/shapes/T.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ti/tetris/service/GridService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ti/tetris/model/Grid.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ti/tetris/controller/TetrisController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TetrisControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ti/tetris/service/GameService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ti/tetris/service/ShapePlacer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ti/tetris/model/ShapeFactory.java" />
       </list>
     </option>
   </component>
@@ -287,6 +275,16 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tetris" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="shapes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tetris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tetris" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tetris" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -322,7 +320,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552008389253" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552011851735" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -347,7 +345,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TetrisControllerTest.printManyOfSameShapeInGrid">
+  <component name="RunManager" selected="JUnit.TetrisControllerTest.endGameWhenHitOverflow">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -374,11 +372,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TetrisControllerTest.clearingGridbeforeNewGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TetrisControllerTest.endGameWhenHitOverflow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.ti.tetris.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TetrisControllerTest" />
-      <option name="METHOD_NAME" value="clearingGridbeforeNewGame" />
+      <option name="METHOD_NAME" value="endGameWhenHitOverflow" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -434,11 +432,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TetrisControllerTest.endGameWhenHitOverflow" />
         <item itemvalue="JUnit.TetrisControllerTest.printManyOfSameShapeInGrid" />
         <item itemvalue="JUnit.TetrisControllerTest.print2OfSameShapeInGrid" />
         <item itemvalue="JUnit.TetrisControllerTest.printShapeInGrid" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.TetrisControllerTest.clearingGridbeforeNewGame" />
       </list>
     </recent_temporary>
   </component>
@@ -459,50 +457,50 @@
       <workItem from="1551420418061" duration="5276000" />
       <workItem from="1551586765519" duration="21366000" />
       <workItem from="1551817228495" duration="6593000" />
-      <workItem from="1551852037279" duration="14824000" />
+      <workItem from="1551852037279" duration="18306000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TetrisControllerTest_print2OfSameShapeInGrid - 2019.03.07 at 13h 57m 08s.xml">
-      <configuration name="TetrisControllerTest.print2OfSameShapeInGrid" configurationId="JUnit" />
+    <history-entry file="TetrisControllerTest_endGameWhenHitOverflow - 2019.03.07 at 19h 53m 32s.xml">
+      <configuration name="TetrisControllerTest.endGameWhenHitOverflow" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TetrisControllerTest_print2OfSameShapeInGrid - 2019.03.07 at 15h 16m 30s.xml">
-      <configuration name="TetrisControllerTest.print2OfSameShapeInGrid" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TetrisControllerTest_print2OfSameShapeInGrid - 2019.03.07 at 15h 16m 41s.xml">
-      <configuration name="TetrisControllerTest.print2OfSameShapeInGrid" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TetrisControllerTest_print2OfSameShapeInGrid - 2019.03.07 at 15h 17m 10s.xml">
-      <configuration name="TetrisControllerTest.print2OfSameShapeInGrid" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TetrisControllerTest_print2OfSameShapeInGrid - 2019.03.07 at 15h 19m 53s.xml">
-      <configuration name="TetrisControllerTest.print2OfSameShapeInGrid" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TetrisControllerTest_printManyOfSameShapeInGrid - 2019.03.07 at 15h 20m 48s.xml">
+    <history-entry file="TetrisControllerTest_printManyOfSameShapeInGrid - 2019.03.07 at 19h 58m 21s.xml">
       <configuration name="TetrisControllerTest.printManyOfSameShapeInGrid" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TetrisControllerTest_printManyOfSameShapeInGrid - 2019.03.07 at 15h 21m 08s.xml">
+    <history-entry file="TetrisControllerTest_printManyOfSameShapeInGrid - 2019.03.07 at 20h 00m 39s.xml">
       <configuration name="TetrisControllerTest.printManyOfSameShapeInGrid" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TetrisControllerTest_printManyOfSameShapeInGrid - 2019.03.07 at 19h 06m 35s.xml">
+    <history-entry file="TetrisControllerTest_printManyOfSameShapeInGrid - 2019.03.07 at 20h 15m 24s.xml">
       <configuration name="TetrisControllerTest.printManyOfSameShapeInGrid" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TetrisControllerTest_printManyOfSameShapeInGrid - 2019.03.07 at 19h 17m 59s.xml">
+    <history-entry file="TetrisControllerTest_printManyOfSameShapeInGrid - 2019.03.07 at 20h 15m 34s.xml">
       <configuration name="TetrisControllerTest.printManyOfSameShapeInGrid" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TetrisControllerTest_printManyOfSameShapeInGrid - 2019.03.07 at 19h 20m 32s.xml">
+    <history-entry file="TetrisControllerTest_printManyOfSameShapeInGrid - 2019.03.07 at 20h 22m 02s.xml">
       <configuration name="TetrisControllerTest.printManyOfSameShapeInGrid" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TetrisControllerTest_printManyOfSameShapeInGrid - 2019.03.07 at 20h 22m 53s.xml">
+      <configuration name="TetrisControllerTest.printManyOfSameShapeInGrid" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TetrisControllerTest_printManyOfSameShapeInGrid - 2019.03.07 at 20h 23m 03s.xml">
+      <configuration name="TetrisControllerTest.printManyOfSameShapeInGrid" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TetrisControllerTest_endGameWhenHitOverflow - 2019.03.07 at 20h 23m 38s.xml">
+      <configuration name="TetrisControllerTest.endGameWhenHitOverflow" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TetrisControllerTest_endGameWhenHitOverflow - 2019.03.07 at 20h 24m 20s.xml">
+      <configuration name="TetrisControllerTest.endGameWhenHitOverflow" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61184000" />
+    <option name="totallyTimeSpent" value="64666000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.14674735" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14674735" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -618,17 +616,13 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/ti/tetris/service/ShapePlacer.java</url>
-          <line>41</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/TetrisControllerTest.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="14" />
+          <line>68</line>
+          <properties class="com.ti.tetris.service.ShapePlacer" method="testEachPlaceInPositionIfEmpty">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -694,45 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ti/tetris/controller/TetrisController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ti/tetris/model/Grid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ti/tetris/model/Gridline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ti/tetris/service/GridService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ti/tetris/view/TetrisView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -768,24 +723,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ti/tetris/service/ShapePlacer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="71" column="54" selection-start-line="71" selection-start-column="54" selection-end-line="71" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ti/tetris/model/shapes/ShapeInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ti/tetris/model/shapes/S.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="29" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="29" />
         </state>
       </provider>
     </entry>
@@ -796,13 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ti/tetris/model/ShapeFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ti/tetris/model/shapes/J.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
@@ -810,17 +744,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ti/tetris/model/Grid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <folding>
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ti/tetris/model/shapes/T.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
+        <state relative-caret-position="435">
           <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ti/tetris/service/GameService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ti/tetris/controller/TetrisController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ti/tetris/model/shapes/S.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ti/tetris/model/Gridline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ti/tetris/service/ShapePlacer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="76" column="34" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ti/tetris/model/ShapeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="8" selection-start-line="8" selection-end-line="26" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TetrisControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="30" selection-start-line="30" selection-end-line="32" />
+        <state relative-caret-position="138">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>

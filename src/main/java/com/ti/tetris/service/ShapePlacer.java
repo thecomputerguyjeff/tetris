@@ -73,6 +73,8 @@ public class ShapePlacer {
                     return false;
                 }
             }
+
+            line = line.getNext();
         }
         return true;
     }
