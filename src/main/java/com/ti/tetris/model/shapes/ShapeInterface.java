@@ -1,4 +1,4 @@
-package com.ti.tetris.model;
+package com.ti.tetris.model.shapes;
 
 import java.util.List;
 

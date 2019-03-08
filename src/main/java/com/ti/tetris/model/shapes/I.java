@@ -1,4 +1,4 @@
-package com.ti.tetris.model;
+package com.ti.tetris.model.shapes;
 
 import lombok.Data;
 
@@ -7,15 +7,10 @@ import java.util.Arrays;
 import java.util.List;
 
 @Data
-public class StraightLine implements ShapeInterface {
-    String identifier = "l";
-    Integer startingPoint;
+public class I implements ShapeInterface {
+    String identifier = "I";
     Integer orientation = 0;
     Integer numberOfOrientations = 2;
-    Integer square1;
-    Integer square2;
-    Integer square3;
-    Integer square4;
 
     @Override
     public List<List> getPositions(Integer orientation) {

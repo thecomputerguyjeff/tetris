@@ -2,7 +2,7 @@ package com.ti.tetris.service;
 
 import com.ti.tetris.model.Grid;
 import com.ti.tetris.model.Gridline;
-import com.ti.tetris.model.ShapeInterface;
+import com.ti.tetris.model.shapes.ShapeInterface;
 import com.ti.tetris.model.ShapePlace;
 
 import java.util.List;
@@ -69,7 +69,7 @@ public class ShapePlacer {
     public Boolean testEachPlaceInPositionIfEmpty(List<List> position, Gridline line, int i) {
         for (List<Integer> row : position) {
             for (Integer place : row) {
-                if ((place + i >= 10) || !(line.getContents()[place + i].equals("X000"))) {
+                if ((place + i >= 10) || (place + i < 0) || !(line.getContents()[place + i].equals("X000"))) {
                     return false;
                 }
             }

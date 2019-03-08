@@ -1,6 +1,7 @@
 package com.ti.tetris.service;
 
 import com.ti.tetris.model.*;
+import com.ti.tetris.model.shapes.ShapeInterface;
 
 import java.util.List;
 
