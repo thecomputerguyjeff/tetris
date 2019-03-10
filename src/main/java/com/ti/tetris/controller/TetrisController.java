@@ -8,20 +8,20 @@ public class TetrisController {
     GameService gameService = new GameService();
     TetrisView tetrisView = new TetrisView();
 
-    public void addShape() {
-        gameService.addShape();
-    }
-    public void clearGrid(){
-        Grid.getGrid().clearGrid();
-    }
-    public void printGame() {
-        tetrisView.printGame();
-
-    }
+//    public void addShape() {
+//        gameService.addShape();
+//    }
+//    public void clearGrid(){
+//        Grid.getGrid().clearGrid();
+//    }
+//    public void printGame() {
+//        tetrisView.printGame();
+//    }
 
     public void playGame(){
         Grid.getGrid().clearGrid();
         gameService.playGame();
+        tetrisView.printGame();
     }
 
 }

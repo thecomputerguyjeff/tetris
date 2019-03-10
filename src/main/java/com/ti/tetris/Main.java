@@ -6,6 +6,6 @@ public class Main {
 
     public static void main(String args[]){
         TetrisController tetrisController = new TetrisController();
-        tetrisController.printGame();
+        tetrisController.playGame();
     }
 }

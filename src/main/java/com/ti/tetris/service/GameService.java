@@ -15,7 +15,7 @@ public class GameService {
     ShapePlacer shapePlacer = new ShapePlacer();
     private Integer currentShapeNo = 0;
 
-    public Integer addShape() {
+    public void addShape() {
         ShapeInterface shape = shapeFactory.getShape();
         currentShapeNo++;
         ShapePlace shapePlace = shapePlacer.findShapePlace(shape);
@@ -26,17 +26,21 @@ public class GameService {
         for (List<Integer> row : positions) {
             for (Integer place : row) {
                 line.contents[startPlace + place] = shape.getIdentifier() + paddedNum;
+                line.increaseFilledSpots();
             }
             line = line.getNext();
+            if (line.getPrevious().getFilledSpots() == 10){
+                grid.removeLine(line.getPrevious());
+            }
 
         }
-        return currentShapeNo;
     }
     public void playGame(){
         while (Arrays.toString(grid.getTopLine().getPrevious().getPrevious().getContents()).equals("[X000, X000, X000, X000, X000, X000, X000, X000, X000, X000]")){
-            Integer currentShapeNo = addShape();
+            addShape();
         }
         System.out.println("Game over :(");
+        System.out.println("Shapes placed: "+currentShapeNo);
     }
 
 

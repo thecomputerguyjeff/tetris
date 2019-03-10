@@ -22,8 +22,9 @@ public class ShapeFactory {
                 return new Z();
             case 6:
                 return new T();
+            default:
+                return null;
 
       }
-        return null;
     }
 }

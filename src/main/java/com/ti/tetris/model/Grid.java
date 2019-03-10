@@ -25,8 +25,12 @@ public class Grid {
     }
 
     public void removeLine(Gridline line) {
-        line.getPrevious().setNext(line.getNext());
-        line.getNext().setPrevious(line.getPrevious());
+        if (line == bottomLine){
+            bottomLine = line.getNext();
+        }else{
+            line.getPrevious().setNext(line.getNext());
+            line.getNext().setPrevious(line.getPrevious());
+        }
         addLine();
 
     }

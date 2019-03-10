@@ -16,4 +16,18 @@ dependencies {
     testCompile 'org.mockito:mockito-all:1.10.19'
     compileOnly 'org.projectlombok:lombok:1.18.6'
     annotationProcessor 'org.projectlombok:lombok:1.18.6'
+    // https://mvnrepository.com/artifact/com.diogonunes/JCDP
+    compile group: 'com.diogonunes', name: 'JCDP', version: '2.0.3.1'
+    // https://mvnrepository.com/artifact/org.fusesource.jansi/jansi
+    compile group: 'org.fusesource.jansi', name: 'jansi', version: '1.17.1'
+
+
+}
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'com.ti.tetris.Main'
+        )
+    }
 }

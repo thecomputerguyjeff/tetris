@@ -42,7 +42,7 @@ public class ShapePlacer {
         Gridline line = grid.getBottomLine();
         ShapePlace shapePlace = new ShapePlace();
         while (true){
-            String[] contents = line.getContents();
+            //String[] contents = line.getContents();
             for (int i = 0; i < 10; i++) {
                     if (testForPossiblePositions(shape, line, i)){
                         shapePlace.setPositions(shape.getPositions(shapeOrientation));
@@ -54,11 +54,11 @@ public class ShapePlacer {
             line = line.getNext();
         }
     }
-        private boolean testForPossiblePositions(ShapeInterface shape, Gridline line, int i) {
-            for (int j = 0; j < shape.getNumberOfOrientations(); j++) {
-                List<List> position = shape.getPositions(j);
-                if(testEachPlaceInPositionIfEmpty(position,line,i)) {
-                    shapeOrientation = j;
+        private boolean testForPossiblePositions(ShapeInterface shape, Gridline line, int startingPlace) {
+            for (int i = 0; i < shape.getNumberOfOrientations(); i++) {
+                List<List> position = shape.getPositions(i);
+                if(testEachPlaceInPositionIfEmpty(position,line,startingPlace)) {
+                    shapeOrientation = i;
                     return true;
                 }
         }
@@ -66,10 +66,10 @@ public class ShapePlacer {
     }
 
 
-    public Boolean testEachPlaceInPositionIfEmpty(List<List> position, Gridline line, int i) {
+    public Boolean testEachPlaceInPositionIfEmpty(List<List> position, Gridline line, int startingPlace) {
         for (List<Integer> row : position) {
             for (Integer place : row) {
-                if ((place + i >= 10) || (place + i < 0) || !(line.getContents()[place + i].equals("X000"))) {
+                if ((place + startingPlace >= 10) || (place + startingPlace < 0) || !(line.getContents()[place + startingPlace].equals("X000"))) {
                     return false;
                 }
             }
