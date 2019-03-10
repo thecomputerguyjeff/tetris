@@ -1,7 +1,7 @@
 #Tetris!!!
 This will be great.
 
-Shape factory returns one of 7 shapes randomly.
+model.Shape factory returns one of 7 shapes randomly.
 Grid has 10 columns and 40 legal rows, with 3 overflow rows.
 Game ends as soon as one shape is inside overflow rows.
 Algorythmically place each shape in grid, optimizing rules of tetris.
