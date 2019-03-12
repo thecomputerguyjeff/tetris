@@ -20,7 +20,19 @@ public class TheGrid {
             for (int x = 0; x < 10; x++) {
                 if (theGrid[x][y] == null) {//if that spot is null,
                     if (this.checkSurroundings(theShape, x, y,theShape.getFirst())) {//then go in and check surroundings
-                        this.put(theShape, theGrid, x, y);//then put it in.
+                        this.put(theShape, theGrid,x,y,theShape.getFirst());//then put it in.
+                        return theGrid;
+                    }
+                    else if(this.checkSurroundings(theShape,x,y,theShape.getSecond())){
+                        this.put(theShape,theGrid,x,y,theShape.getSecond());
+                        return theGrid;
+                    }
+                    else if(this.checkSurroundings(theShape,x,y,theShape.getThird())){
+                        this.put(theShape,theGrid,x,y,theShape.getThird());
+                        return theGrid;
+                    }
+                    else if(this.checkSurroundings(theShape,x,y,theShape.getFourth())){
+                        this.put(theShape,theGrid,x,y,theShape.getFourth());
                         return theGrid;
                     }
                 }
@@ -29,7 +41,7 @@ public class TheGrid {
         return theGrid;
     }
 
-    public String[][] put(Shape theShape, String[][] theGrid, Integer x, Integer y) {
+    public String[][] put(Shape theShape, String[][] theGrid, Integer x, Integer y, List<Coordinates> theMethod) {
         String label = theShape.getLabel();
         count++;
         if (count <= 9) {
@@ -39,8 +51,8 @@ public class TheGrid {
         }
         //this for loop writes the shape into the grid
         for (int i = 0; i < 4; i++) {
-            whereX = theShape.getFirst().get(i).getX() + x;
-            whereY = theShape.getFirst().get(i).getY() + y;
+            whereX = theMethod.get(i).getX() + x;
+            whereY = theMethod.get(i).getY() + y;
             //if ((whereX<=9)&&whereY<=42) {
             theGrid[whereX][whereY] = label + theCount;
             //}
