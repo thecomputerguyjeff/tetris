@@ -10,8 +10,8 @@ public class BackwardL extends Shapes {
     public String[][] get1(){
         String[][] backwardL = new String[2][3];
 
-        backwardL[1][0] = LABEL+count;
         backwardL[0][0] = LABEL+count;
+        backwardL[1][0] = LABEL+count;
         backwardL[0][1] = LABEL+count;
         backwardL[0][2] = LABEL+count;
 
@@ -19,12 +19,12 @@ public class BackwardL extends Shapes {
     }
 
     public String[][] get2(){
-        String[][] backwardL = new String[2][3];
+        String[][] backwardL = new String[3][2];
 
         backwardL[0][0] = LABEL +count;
         backwardL[0][1] = LABEL+count;
         backwardL[1][1] = LABEL+count;
-        backwardL[1][2] = LABEL+count;
+        backwardL[2][1] = LABEL+count;
 
         return backwardL;
     }
