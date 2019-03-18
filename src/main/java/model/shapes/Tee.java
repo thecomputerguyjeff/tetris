@@ -1,8 +1,11 @@
 package model.shapes;
 
 
+import lombok.Getter;
+import lombok.Setter;
 import model.Shapes;
-
+@Getter
+@Setter
 public class Tee extends Shapes {
 
     public static final String T = "T ";

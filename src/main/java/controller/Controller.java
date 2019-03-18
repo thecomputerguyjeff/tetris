@@ -12,9 +12,6 @@ public class Controller {
         GridService gridService = new GridService();
         GridView gridView = new GridView();
 
-        public void fillingGrid () {
-            gridService.fillGrid();
-        }
 
         public void printingGrid () {
             gridView.printGrid();

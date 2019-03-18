@@ -23,7 +23,7 @@ public class GridService {
     int z=0;
 
 
-    private Integer insertShape(){
+    public Integer insertShape(){
         v=location[0];
 
         if ((location[1]-1)+shape2[0].length<10){
@@ -45,7 +45,7 @@ public class GridService {
     }
 
     //check if can go in that place by checking for nulls if doesn't work rotate shape and test again.
-    private boolean checkShape(){
+    public boolean checkShape(){
         v=location[0];
         int count=0;
 
@@ -68,7 +68,7 @@ public class GridService {
         return false;
     }
 
-    private boolean isNullInRow(){
+    public boolean isNullInRow(){
         for (int row =0; row<43; row++){
             for (int column=0; column<9; column++){
                 if (grid[row][column]==null){

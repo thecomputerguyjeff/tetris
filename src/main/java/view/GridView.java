@@ -6,16 +6,24 @@ import service.GridService;
 public class GridView {
     private GridService gridService = new GridService();
 
-    private String[][] gridView = gridService.fillGrid();
+    private String[][] gridView;
 
-    public GridView(){};
+    /**
+     * Fills the grid when called in printGrid()
+     */
+    public void fillGrid(){
+        gridView = gridService.fillGrid();
+    }
+
+
 
     public void printGrid(){
+        fillGrid();
 
-        for(int i=42; i>=0; i--){
+        for(int row=42; row>=0; row--){
 
-            for (int j=0; j<10; j++){
-                System.out.print("    " + gridView[i][j]);
+            for (int column=0; column<10; column++){
+                System.out.print("    " + gridView[row][column]);
 
             }
 
