@@ -1,8 +1,11 @@
 package model.shapes;
 
 
+import lombok.Getter;
+import lombok.Setter;
 import model.Shapes;
-
+@Getter
+@Setter
 public class Line extends Shapes {
 
     public static final String LABEL = "Li";

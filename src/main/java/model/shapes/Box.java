@@ -1,11 +1,14 @@
 package model.shapes;
 
+import lombok.Getter;
+import lombok.Setter;
 import model.Shapes;
 
 import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.List;
-
+@Getter
+@Setter
 public class Box extends Shapes {
     public static final String LABEL = "B ";
     String count = Shapes.count();

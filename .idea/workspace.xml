@@ -3,10 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="847df9c7-d1ba-4e23-8872-436fdbe6f326" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/shapes/Tee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/shapes/Tee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/GridService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/GridService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/GridView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/GridView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/shapes/BackwardL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/shapes/BackwardL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/shapes/BackwardZee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/shapes/BackwardZee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/shapes/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/shapes/Box.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/shapes/L.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/shapes/L.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/shapes/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/shapes/Line.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/shapes/Zee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/shapes/Zee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/service/GridServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/GridServiceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -66,7 +68,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/service/GridService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
+            <state relative-caret-position="1003">
               <caret line="63" selection-start-line="63" selection-end-line="63" />
             </state>
           </provider>
@@ -75,20 +77,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/service/GridServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+            <state relative-caret-position="185">
+              <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,6 +106,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>test</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -138,22 +133,22 @@
         <option value="$PROJECT_DIR$/src/main/java/model/Line.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Zee.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Shapes.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/shapes/Box.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/shapes/BackwardZee.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/shapes/Line.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/shapes/Zee.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/model/shapes/BackwardL.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/shapes/L.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/java/view/GridView.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/shapes/Tee.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/GridService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/shapes/Zee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/shapes/Line.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/shapes/L.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/shapes/Box.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/shapes/BackwardZee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/shapes/BackwardL.java" />
         <option value="$PROJECT_DIR$/src/test/java/service/GridServiceTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -164,6 +159,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -212,6 +208,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="shapes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tetris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tetris" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -247,13 +252,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552870681530" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552886054331" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -288,7 +292,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GridServiceTest.TestAnotherThing">
+  <component name="RunManager" selected="Application.Controller">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -315,26 +319,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tetris [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="dependencies" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="GridServiceTest.TestAnotherThing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GridServiceTest.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.ti.tetris.test" />
       <extension name="coverage">
         <pattern>
@@ -344,14 +329,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="service" />
       <option name="MAIN_CLASS_NAME" value="service.GridServiceTest" />
-      <option name="METHOD_NAME" value="TestAnotherThing" />
+      <option name="METHOD_NAME" value="Test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GridServiceTest.TestInsertTeePutsIn00LocationInGrid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GridServiceTest.TestShapeFactoryGetRandomIsCalled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.ti.tetris.test" />
       <extension name="coverage">
         <pattern>
@@ -361,14 +346,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="service" />
       <option name="MAIN_CLASS_NAME" value="service.GridServiceTest" />
-      <option name="METHOD_NAME" value="TestInsertTeePutsIn00LocationInGrid" />
+      <option name="METHOD_NAME" value="TestShapeFactoryGetRandomIsCalled" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GridServiceTest.TestScanningForNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GridServiceTest.TestShapeFactoryIsCalled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.ti.tetris.test" />
       <extension name="coverage">
         <pattern>
@@ -378,7 +363,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="service" />
       <option name="MAIN_CLASS_NAME" value="service.GridServiceTest" />
-      <option name="METHOD_NAME" value="TestScanningForNull" />
+      <option name="METHOD_NAME" value="TestShapeFactoryIsCalled" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GridServiceTest.TestStaticCountWorksAndIncrementsProperly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.ti.tetris.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.GridServiceTest" />
+      <option name="METHOD_NAME" value="TestStaticCountWorksAndIncrementsProperly" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -402,11 +404,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GridServiceTest.TestAnotherThing" />
-        <item itemvalue="JUnit.GridServiceTest.TestInsertTeePutsIn00LocationInGrid" />
         <item itemvalue="Application.Controller" />
-        <item itemvalue="JUnit.GridServiceTest.TestScanningForNull" />
-        <item itemvalue="Gradle.tetris [dependencies]" />
+        <item itemvalue="JUnit.GridServiceTest.TestShapeFactoryGetRandomIsCalled" />
+        <item itemvalue="JUnit.GridServiceTest.TestStaticCountWorksAndIncrementsProperly" />
+        <item itemvalue="JUnit.GridServiceTest.Test" />
+        <item itemvalue="JUnit.GridServiceTest.TestShapeFactoryIsCalled" />
       </list>
     </recent_temporary>
   </component>
@@ -436,50 +438,51 @@
       <workItem from="1552445953347" duration="3124000" />
       <workItem from="1552530239743" duration="16000" />
       <workItem from="1552786966799" duration="4197000" />
-      <workItem from="1552869424655" duration="1255000" />
+      <workItem from="1552869424655" duration="3216000" />
+      <workItem from="1552885446490" duration="583000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GridServiceTest_TestInsertTeePutsIn00LocationInGrid - 2019.03.17 at 01h 02m 52s.xml">
-      <configuration name="GridServiceTest.TestInsertTeePutsIn00LocationInGrid" configurationId="JUnit" />
+    <history-entry file="GridServiceTest_TestShapeFactoryGetRandomIsCalled - 2019.03.17 at 21h 58m 30s.xml">
+      <configuration name="GridServiceTest.TestShapeFactoryGetRandomIsCalled" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GridServiceTest_TestInsertTeePutsIn00LocationInGrid - 2019.03.17 at 01h 03m 24s.xml">
-      <configuration name="GridServiceTest.TestInsertTeePutsIn00LocationInGrid" configurationId="JUnit" />
+    <history-entry file="GridServiceTest_TestShapeFactoryGetRandomIsCalled - 2019.03.17 at 21h 59m 01s.xml">
+      <configuration name="GridServiceTest.TestShapeFactoryGetRandomIsCalled" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GridServiceTest_TestInsertTeePutsIn00LocationInGrid - 2019.03.17 at 01h 03m 44s.xml">
-      <configuration name="GridServiceTest.TestInsertTeePutsIn00LocationInGrid" configurationId="JUnit" />
+    <history-entry file="GridServiceTest_TestShapeFactoryGetRandomIsCalled - 2019.03.17 at 21h 59m 14s.xml">
+      <configuration name="GridServiceTest.TestShapeFactoryGetRandomIsCalled" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GridServiceTest_TestInsertTeePutsIn00LocationInGrid - 2019.03.17 at 19h 42m 32s.xml">
-      <configuration name="GridServiceTest.TestInsertTeePutsIn00LocationInGrid" configurationId="JUnit" />
+    <history-entry file="GridServiceTest_TestShapeFactoryGetRandomIsCalled - 2019.03.18 at 00h 11m 11s.xml">
+      <configuration name="GridServiceTest.TestShapeFactoryGetRandomIsCalled" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GridServiceTest_TestInsertTeePutsIn00LocationInGrid - 2019.03.17 at 19h 42m 43s.xml">
-      <configuration name="GridServiceTest.TestInsertTeePutsIn00LocationInGrid" configurationId="JUnit" />
+    <history-entry file="GridServiceTest_TestShapeFactoryGetRandomIsCalled - 2019.03.18 at 00h 12m 23s.xml">
+      <configuration name="GridServiceTest.TestShapeFactoryGetRandomIsCalled" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GridServiceTest_TestAnotherThing - 2019.03.17 at 19h 50m 07s.xml">
-      <configuration name="GridServiceTest.TestAnotherThing" configurationId="JUnit" />
+    <history-entry file="GridServiceTest_TestShapeFactoryGetRandomIsCalled - 2019.03.18 at 00h 12m 39s.xml">
+      <configuration name="GridServiceTest.TestShapeFactoryGetRandomIsCalled" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GridServiceTest_TestAnotherThing - 2019.03.17 at 19h 50m 37s.xml">
-      <configuration name="GridServiceTest.TestAnotherThing" configurationId="JUnit" />
+    <history-entry file="GridServiceTest_TestShapeFactoryGetRandomIsCalled - 2019.03.18 at 00h 12m 53s.xml">
+      <configuration name="GridServiceTest.TestShapeFactoryGetRandomIsCalled" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GridServiceTest_TestAnotherThing - 2019.03.17 at 19h 51m 04s.xml">
-      <configuration name="GridServiceTest.TestAnotherThing" configurationId="JUnit" />
+    <history-entry file="GridServiceTest_TestShapeFactoryGetRandomIsCalled - 2019.03.18 at 00h 13m 05s.xml">
+      <configuration name="GridServiceTest.TestShapeFactoryGetRandomIsCalled" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GridServiceTest_TestAnotherThing - 2019.03.17 at 19h 51m 39s.xml">
-      <configuration name="GridServiceTest.TestAnotherThing" configurationId="JUnit" />
+    <history-entry file="GridServiceTest_TestShapeFactoryGetRandomIsCalled - 2019.03.18 at 00h 13m 27s.xml">
+      <configuration name="GridServiceTest.TestShapeFactoryGetRandomIsCalled" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GridServiceTest_TestAnotherThing - 2019.03.17 at 19h 53m 03s.xml">
-      <configuration name="GridServiceTest.TestAnotherThing" configurationId="JUnit" />
+    <history-entry file="GridServiceTest_TestShapeFactoryGetRandomIsCalled - 2019.03.18 at 00h 13m 48s.xml">
+      <configuration name="GridServiceTest.TestShapeFactoryGetRandomIsCalled" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69148000" />
+    <option name="totallyTimeSpent" value="71692000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16107382" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16308725" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -585,65 +588,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/shapes/Line.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/shapes/Zee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/shapes/Box.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/shapes/BackwardL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/shapes/BackwardZee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/shapes/L.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Shapes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/shapes/Tee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -657,6 +605,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/shapes/Zee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/shapes/Tee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/shapes/Line.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/shapes/L.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/shapes/Box.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/shapes/BackwardZee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/shapes/BackwardL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/GridService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/view/GridView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -664,17 +689,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/GridService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/service/GridServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        <state relative-caret-position="185">
+          <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

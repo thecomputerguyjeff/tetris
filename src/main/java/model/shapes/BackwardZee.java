@@ -1,7 +1,10 @@
 package model.shapes;
 
+import lombok.Getter;
+import lombok.Setter;
 import model.Shapes;
-
+@Getter
+@Setter
 public class BackwardZee extends Shapes {
 
     public static final String LABEL = "bZ";

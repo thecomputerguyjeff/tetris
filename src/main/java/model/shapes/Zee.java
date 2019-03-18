@@ -1,10 +1,13 @@
 package model.shapes;
 
+import lombok.Getter;
+import lombok.Setter;
 import model.Shapes;
-
+@Getter
+@Setter
 public class Zee extends Shapes {
     public static final String LABEL = "Z ";
-    private String count = Shapes.count();
+    public String count = Shapes.count();
 
 
     public String[][] get1(){
