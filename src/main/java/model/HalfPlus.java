@@ -78,7 +78,7 @@ public class HalfPlus implements Shape{
 
     @Override
     public String getLabel() {
-        return "G";
+        return "T";
     }
 
 

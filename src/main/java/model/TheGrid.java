@@ -1,16 +1,19 @@
 package model;
 
 
+import lombok.Getter;
+import lombok.Setter;
+
 import java.lang.reflect.Method;
 import java.util.List;
 
 public class TheGrid {
-
+    @Getter
+    @Setter
     private String[][] theGrid = new String[10][43];
     private Integer count = 0;
     private String theCount = "";
     private boolean stop;
-    private Integer bestPlace;
     Integer whereX, whereY = -1;
     boolean canPut = false;
 
@@ -19,19 +22,19 @@ public class TheGrid {
         for (int y = 0; y < 40; y++) {
             for (int x = 0; x < 10; x++) {
                 if (theGrid[x][y] == null) {//if that spot is null,
-                    if (this.checkSurroundings(theShape, x, y,theShape.getFirst())) {//then go in and check surroundings
+                    if (this.checkSurroundings(x, y,theShape.getFirst())) {//then go in and check surroundings
                         this.put(theShape, theGrid,x,y,theShape.getFirst());//then put it in.
                         return theGrid;
                     }
-                    else if(this.checkSurroundings(theShape,x,y,theShape.getSecond())){
+                    else if(this.checkSurroundings(x,y,theShape.getSecond())){
                         this.put(theShape,theGrid,x,y,theShape.getSecond());
                         return theGrid;
                     }
-                    else if(this.checkSurroundings(theShape,x,y,theShape.getThird())){
+                    else if(this.checkSurroundings(x,y,theShape.getThird())){
                         this.put(theShape,theGrid,x,y,theShape.getThird());
                         return theGrid;
                     }
-                    else if(this.checkSurroundings(theShape,x,y,theShape.getFourth())){
+                    else if(this.checkSurroundings(x,y,theShape.getFourth())){
                         this.put(theShape,theGrid,x,y,theShape.getFourth());
                         return theGrid;
                     }
@@ -60,9 +63,9 @@ public class TheGrid {
         return theGrid;
     }
 
-    public boolean checkSurroundings(Shape theShape, Integer x, Integer y, List<Coordinates> theMethod) {
+    public boolean checkSurroundings(Integer x, Integer y, List<Coordinates> theMethod) {
         //put boolean for checking
-        for (Coordinates coordinates : theMethod) {//instead do .getFirst()
+        for (Coordinates coordinates : theMethod) {
             canPut = doCheck(coordinates, x, y);
             if (!canPut) {//if false, go to next orientation
                 return false;//if canPut is false, the whole shape can not go there and it has to stop the loop

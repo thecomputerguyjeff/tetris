@@ -78,6 +78,6 @@ public class L implements Shape {
 
     @Override
     public String getLabel() {
-        return "E";
+        return "L";
     }
 }

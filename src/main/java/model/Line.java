@@ -50,7 +50,7 @@ public class Line implements Shape{
 
     @Override
     public String getLabel() {
-        return "D";
+        return "I";
     }
 
 //    @Override

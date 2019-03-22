@@ -52,6 +52,6 @@ public class Z implements Shape {
 
     @Override
     public String getLabel() {
-        return "B";
+        return "Z";
     }
 }

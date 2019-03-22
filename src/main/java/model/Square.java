@@ -44,6 +44,6 @@ public class Square implements Shape {
 
     @Override
     public String getLabel() {
-        return "A";
+        return "X";
     }
 }

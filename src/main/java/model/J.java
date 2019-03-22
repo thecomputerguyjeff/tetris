@@ -74,7 +74,7 @@ public class J implements Shape {
 
     @Override
     public String getLabel() {
-        return "F";
+        return "J";
     }
 
 
