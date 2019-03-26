@@ -30,6 +30,7 @@ public class GameService {
             }
             line = line.getNext();
             if (line.getPrevious().getFilledSpots() == 10){
+                System.out.println("in loop");
                 grid.removeLine(line.getPrevious());
             }
 

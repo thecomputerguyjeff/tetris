@@ -4,9 +4,11 @@ import com.ti.tetris.model.Grid;
 import com.ti.tetris.model.Gridline;
 import com.ti.tetris.model.shapes.ShapeInterface;
 import com.ti.tetris.model.ShapePlace;
+import lombok.Data;
 
 import java.util.List;
 
+@Data
 public class ShapePlacer {
 
     private Grid grid = Grid.getGrid();
@@ -54,7 +56,7 @@ public class ShapePlacer {
             line = line.getNext();
         }
     }
-        private boolean testForPossiblePositions(ShapeInterface shape, Gridline line, int startingPlace) {
+        private boolean testForPossiblePositions(ShapeInterface shape, Gridline line, Integer startingPlace) {
             for (int i = 0; i < shape.getNumberOfOrientations(); i++) {
                 List<List> position = shape.getPositions(i);
                 if(testEachPlaceInPositionIfEmpty(position,line,startingPlace)) {
